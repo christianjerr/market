@@ -1,0 +1,133 @@
+*{
+    font-family: century gothic !important;
+}
+.nav_container{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.nav_container p{
+    padding-bottom: 50px !important;
+    margin-bottom: 0;
+}
+
+.author{
+    background: rgba(0,0,0,0.4);
+    height: 0vh;
+    opacity: 0;
+    color : white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    cursor: pointer !important;
+    
+}
+.x{
+    color : white !important;
+    background: white;
+    border-radius: 1000px;
+    width: 50px !important;
+    position: absolute;
+    right: 50px;
+    top : 50px;
+    cursor: pointer;
+}
+.x:hover{
+    background: gray;
+    transition: 1s;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../img//bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150vh;
+}
+.retailers{
+    background: #f1f1f1;
+    padding: 100px;
+}
+.retailers_opening{
+    background: linear-gradient(to bottom , #ccc ,#f1f1f1);
+    padding: 25px;
+}
+.cover{
+    background: url('../img/cover.jpg'); 
+    color : #f1f1f1;
+    background-attachment: fixed;
+}
+.menu{
+     margin-top: 100px;
+    margin-bottom: 20px;
+}
+#close_menu{
+    cursor: pointer;
+}
+#close_menu:hover{
+    background: none;
+    color: darkred;
+    transition: 1s;
+}
+.products{
+    width: 0%;
+    background: rgba(0,0,0,0.5);
+    color : #fff;
+    text-align: center;
+
+    opacity: 0;
+    overflow-y: scroll;
+    height:400px;
+}
+.products a{
+    display: block;
+    color: white;
+    padding: 15px;
+}
+
+.products a:hover{
+    background: rgba(0,0,0,0.5);
+    text-decoration: none;
+    padding: 15px;
+}
+.showcase{
+    padding-top: 100px;
+}
+.showcase_one{
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    padding: 80px ;
+}
+.padding{
+    padding-top: 100px;
+}
+.opening_text{
+    background: linear-gradient(to bottom ,white, #ccc , white);
+    padding: 25px;
+}
+.opening{
+    background: #f1f1f1;
+    padding: 25px 25px 25px 70px;
+}
+
+.content{
+    margin-top: 100px;
+    background: white;
+    padding: 50px;
+    opacity: 0;
+}
+
+.hidden{
+    opacity: 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
